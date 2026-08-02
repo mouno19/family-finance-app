@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0f766e" />
+<title>পারিবারিক হিসাব ও কাপড় ব্যবসা</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================= লগইন স্ক্রিন ================= -->
+<div id="login-screen" class="login-wrap" hidden>
+  <div class="login-box">
+    <div class="login-logo">🧾</div>
+    <h1>পারিবারিক হিসাব</h1>
+    <p class="muted">আয়-ব্যয়, কাপড় ব্যবসা ও রসিদ — সব এক জায়গায়</p>
+    <p class="login-step">১. আপনার নাম বেছে নিন</p>
+    <div id="member-grid" class="member-grid"></div>
+    <p class="login-step">২. আপনার পিন দিন</p>
+    <form id="login-form" autocomplete="off">
+      <input id="login-pin" type="password" inputmode="numeric" maxlength="8" placeholder="পিন নম্বর" required />
+      <button type="submit" class="btn btn-primary btn-block">প্রবেশ করুন</button>
+      <p id="login-error" class="error-text" hidden></p>
+    </form>
+    <p class="hint">প্রথমবার: সবার পিন <b>১২৩৪</b>, অ্যাডমিনের পিন <b>১২১২</b></p>
+  </div>
+</div>
+
+<!-- ================= মূল অ্যাপ ================= -->
+<div id="app" hidden>
+  <header class="topbar">
+    <div class="brand">
+      <strong>🧾 পারিবারিক হিসাব</strong>
+      <small id="sync-status" class="sync-ok">● সংযুক্ত</small>
+    </div>
+    <div class="user-area">
+      <span id="user-chip" class="user-chip"></span>
+      <button id="settings-btn" class="icon-btn" title="সেটিংস">⚙️</button>
+      <button id="logout-btn" class="icon-btn" title="লগআউট">🚪</button>
+    </div>
+  </header>
+
+  <nav id="topnav" class="topnav"></nav>
+
+  <main id="view" class="view-wrap"></main>
+
+  <nav id="bottomnav" class="bottomnav"></nav>
+</div>
+
+<!-- মডাল, টোস্ট ও প্রিন্ট এরিয়া -->
+<div id="modal-root" hidden></div>
+<div id="toast-root"></div>
+<div id="print-area"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "family-finance-app",
+  "version": "1.0.0",
+  "description": "পারিবারিক হিসাব ও কাপড় ব্যবসা ম্যানেজমেন্ট",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

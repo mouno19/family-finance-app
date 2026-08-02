@@ -1,0 +1,484 @@
+{
+ "members": [
+  {
+   "id": 1,
+   "key": "priya",
+   "name": "প্রিয়া",
+   "role": "member",
+   "pin": "72ce591c27de650d:730b12a0094bc55b35e9be659f5ed6d6814f76cfd4bf9a05c0f1783b2d1e8a8c"
+  },
+  {
+   "id": 2,
+   "key": "moun",
+   "name": "মৌন",
+   "role": "member",
+   "pin": "ddcf5caa70e7365e:341303aa0821f51c8d5ae052c8d4668445bdeabbeaaf0cd69afb82a4de6a6cc2"
+  },
+  {
+   "id": 3,
+   "key": "maruf",
+   "name": "মারুফ",
+   "role": "earner",
+   "pin": "344b337f26f9d573:331ed616a1c940683d02e7c0657357309166249336eed6bbe4a4c24eb35390bf"
+  },
+  {
+   "id": 4,
+   "key": "minu",
+   "name": "মিনু",
+   "role": "member",
+   "pin": "641e1ac28b0b463d:29586d2190271b962e242c0d74d15a214a9c7f2535448e6911f6fd359cc47c0d"
+  },
+  {
+   "id": 5,
+   "key": "sakhawat",
+   "name": "সাখাওয়াত",
+   "role": "business",
+   "pin": "963b076d2e697df7:cdae48825af7fcfe334b7ebc117131fcbee8c4d100ab3dcff5395bce38681821"
+  },
+  {
+   "id": 6,
+   "key": "titli",
+   "name": "তিতলী",
+   "role": "member",
+   "pin": "b56d0d2e8f95d189:94c4eda3a4a599bfa83fdd9eb20be2d51090ca5d016cfdc3b12025f64c0978ec"
+  },
+  {
+   "id": 7,
+   "key": "admin",
+   "name": "অ্যাডমিন",
+   "role": "admin",
+   "pin": "bef570532c925b98:89458c69776e3d67716a1aab94d4d9fff5bc108e0e5f1a4c768681d438b8a234"
+  }
+ ],
+ "products": [
+  {
+   "id": 1,
+   "name": "জামদানি শাড়ি",
+   "quantity": 12,
+   "purchasePrice": 1450,
+   "sellingPrice": 2100,
+   "createdAt": "2026-08-01T21:15:36.923Z"
+  },
+  {
+   "id": 2,
+   "name": "কটন শাড়ি",
+   "quantity": 20,
+   "purchasePrice": 650,
+   "sellingPrice": 950,
+   "createdAt": "2026-08-01T21:15:36.936Z"
+  },
+  {
+   "id": 3,
+   "name": "লুঙ্গি",
+   "quantity": 35,
+   "purchasePrice": 220,
+   "sellingPrice": 320,
+   "createdAt": "2026-08-01T21:15:36.937Z"
+  },
+  {
+   "id": 4,
+   "name": "গামছা",
+   "quantity": 40,
+   "purchasePrice": 90,
+   "sellingPrice": 140,
+   "createdAt": "2026-08-01T21:15:36.937Z"
+  },
+  {
+   "id": 5,
+   "name": "থান কাপড় (গজ)",
+   "quantity": 60,
+   "purchasePrice": 180,
+   "sellingPrice": 260,
+   "createdAt": "2026-08-01T21:15:36.937Z"
+  },
+  {
+   "id": 6,
+   "name": "পাঞ্জাবি",
+   "quantity": 10,
+   "purchasePrice": 750,
+   "sellingPrice": 1150,
+   "createdAt": "2026-08-01T21:15:36.937Z"
+  }
+ ],
+ "purchases": [
+  {
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.939Z",
+   "id": 1,
+   "productId": 1,
+   "qty": 15,
+   "unitPrice": 1450,
+   "total": 21750,
+   "storeName": "আরিফ টেক্সটাইল",
+   "date": "2026-07-12"
+  },
+  {
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.939Z",
+   "id": 2,
+   "productId": 2,
+   "qty": 25,
+   "unitPrice": 650,
+   "total": 16250,
+   "storeName": "ঢাকা কটন হাউস",
+   "date": "2026-07-12"
+  },
+  {
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.939Z",
+   "id": 3,
+   "productId": 3,
+   "qty": 40,
+   "unitPrice": 220,
+   "total": 8800,
+   "storeName": "আরিফ টেক্সটাইল",
+   "date": "2026-07-17"
+  },
+  {
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z",
+   "id": 4,
+   "productId": 4,
+   "qty": 45,
+   "unitPrice": 90,
+   "total": 4050,
+   "storeName": "আরিফ টেক্সটাইল",
+   "date": "2026-07-17"
+  },
+  {
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z",
+   "id": 5,
+   "productId": 5,
+   "qty": 70,
+   "unitPrice": 180,
+   "total": 12600,
+   "storeName": "নারায়ণগঞ্জ ক্লথ স্টোর",
+   "date": "2026-07-20"
+  },
+  {
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z",
+   "id": 6,
+   "productId": 6,
+   "qty": 12,
+   "unitPrice": 750,
+   "total": 9000,
+   "storeName": "ঢাকা কটন হাউস",
+   "date": "2026-07-24"
+  }
+ ],
+ "sales": [
+  {
+   "id": 1,
+   "productId": 1,
+   "qty": 1,
+   "unitPrice": 2100,
+   "unitCost": 1450,
+   "total": 2100,
+   "date": "2026-07-26",
+   "note": "খুচরা বিক্রি",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 2,
+   "productId": 2,
+   "qty": 2,
+   "unitPrice": 950,
+   "unitCost": 650,
+   "total": 1900,
+   "date": "2026-07-27",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 3,
+   "productId": 3,
+   "qty": 3,
+   "unitPrice": 320,
+   "unitCost": 220,
+   "total": 960,
+   "date": "2026-07-29",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 4,
+   "productId": 5,
+   "qty": 4,
+   "unitPrice": 260,
+   "unitCost": 180,
+   "total": 1040,
+   "date": "2026-07-30",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 5,
+   "productId": 2,
+   "qty": 3,
+   "unitPrice": 950,
+   "unitCost": 650,
+   "total": 2850,
+   "date": "2026-07-31",
+   "note": "পাইকারি অর্ডার",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 6,
+   "productId": 1,
+   "qty": 2,
+   "unitPrice": 2100,
+   "unitCost": 1450,
+   "total": 4200,
+   "date": "2026-08-01",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 7,
+   "productId": 4,
+   "qty": 5,
+   "unitPrice": 140,
+   "unitCost": 90,
+   "total": 700,
+   "date": "2026-08-01",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 8,
+   "productId": 6,
+   "qty": 2,
+   "unitPrice": 1150,
+   "unitCost": 750,
+   "total": 2300,
+   "date": "2026-08-01",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 9,
+   "productId": 3,
+   "qty": 2,
+   "unitPrice": 320,
+   "unitCost": 220,
+   "total": 640,
+   "date": "2026-08-01",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.940Z"
+  },
+  {
+   "id": 10,
+   "productId": 5,
+   "qty": 6,
+   "unitPrice": 260,
+   "unitCost": 180,
+   "total": 1560,
+   "date": "2026-08-01",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  }
+ ],
+ "transactions": [
+  {
+   "id": 1,
+   "type": "income",
+   "amount": 30000,
+   "category": "বেতন/উপার্জন",
+   "note": "জুলাই মাসের খরচ",
+   "date": "2026-07-05",
+   "memberId": 3,
+   "createdBy": 3,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 2,
+   "type": "expense",
+   "amount": 8000,
+   "category": "বাড়ি ভাড়া",
+   "note": "",
+   "date": "2026-07-22",
+   "memberId": 4,
+   "createdBy": 4,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 3,
+   "type": "expense",
+   "amount": 950,
+   "category": "গ্যাস বিল",
+   "note": "",
+   "date": "2026-07-23",
+   "memberId": 4,
+   "createdBy": 4,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 4,
+   "type": "expense",
+   "amount": 1350,
+   "category": "বিদ্যুৎ বিল",
+   "note": "",
+   "date": "2026-07-24",
+   "memberId": 1,
+   "createdBy": 1,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 5,
+   "type": "expense",
+   "amount": 4500,
+   "category": "খাবার/বাজার",
+   "note": "সাপ্তাহিক বাজার",
+   "date": "2026-07-26",
+   "memberId": 4,
+   "createdBy": 4,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 6,
+   "type": "income",
+   "amount": 25000,
+   "category": "বেতন/উপার্জন",
+   "note": "",
+   "date": "2026-07-20",
+   "memberId": 3,
+   "createdBy": 3,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 7,
+   "type": "expense",
+   "amount": 2200,
+   "category": "পড়াশোনা",
+   "note": "বই ও খাতা",
+   "date": "2026-07-28",
+   "memberId": 6,
+   "createdBy": 6,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 8,
+   "type": "expense",
+   "amount": 1800,
+   "category": "চিকিৎসা",
+   "note": "ওষুধ কেনা",
+   "date": "2026-07-30",
+   "memberId": 2,
+   "createdBy": 2,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 9,
+   "type": "expense",
+   "amount": 3200,
+   "category": "খাবার/বাজার",
+   "note": "",
+   "date": "2026-07-31",
+   "memberId": 1,
+   "createdBy": 1,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 10,
+   "type": "income",
+   "amount": 20000,
+   "category": "বেতন/উপার্জন",
+   "note": "আগস্ট মাসের খরচ",
+   "date": "2026-08-01",
+   "memberId": 3,
+   "createdBy": 3,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 11,
+   "type": "expense",
+   "amount": 600,
+   "category": "যাতায়াত",
+   "note": "",
+   "date": "2026-08-01",
+   "memberId": 6,
+   "createdBy": 6,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  }
+ ],
+ "dues": [
+  {
+   "id": 1,
+   "type": "receivable",
+   "storeName": "নিউ মার্কেট ক্লথ স্টোর",
+   "amount": 15000,
+   "date": "2026-07-23",
+   "status": "unpaid",
+   "paidDate": null,
+   "note": "শাড়ি বিক্রির বাকি",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 2,
+   "type": "payable",
+   "storeName": "আরিফ টেক্সটাইল",
+   "amount": 22000,
+   "date": "2026-07-20",
+   "status": "unpaid",
+   "paidDate": null,
+   "note": "কাপড় কেনার বাকি",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 3,
+   "type": "receivable",
+   "storeName": "পার্সোনা ফ্যাশন",
+   "amount": 6500,
+   "date": "2026-07-07",
+   "status": "paid",
+   "paidDate": "2026-07-14",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  },
+  {
+   "id": 4,
+   "type": "payable",
+   "storeName": "ঢাকা কটন হাউস",
+   "amount": 9000,
+   "date": "2026-07-02",
+   "status": "paid",
+   "paidDate": "2026-07-10",
+   "note": "",
+   "createdBy": 5,
+   "createdAt": "2026-08-01T21:15:36.946Z"
+  }
+ ],
+ "sessions": {},
+ "meta": {
+  "seededAt": "2026-08-01T21:15:36.946Z",
+  "counters": {
+   "members": 7,
+   "products": 6,
+   "purchases": 6,
+   "sales": 10,
+   "transactions": 11,
+   "dues": 4
+  }
+ }
+}
